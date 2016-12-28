@@ -1,3 +1,10 @@
 Pixelbench.
 
-Ekeligster C-Code, den ich je verbrochen habe. Spricht kein Pixelflut-Protokoll, wirft nur Daten von Datei nach TCP. Vermutlich schnell.
+Ekeligster C-Code, den ich je verbrochen habe. Spricht kein Pixelflut-Protokoll, wirft nur Daten von Datei nach TCP. 0 Errorhandlung. Vermutlich schnell.
+
+Usage:
+- Erzeuge ein Verzeichniss mit den Dateien, die du fluten möchtest im Pixelflut-Format
+- Aufruf mit ./a.out hostname port connections directory
+    - flute nach hostname auf port
+    - nutze dabei connections TCP-Connections
+    - flute die Dateien aus directory
